@@ -980,7 +980,7 @@ CDEFINES :=	-DANI_LITTLE_BYTE_ENDIAN \
 		-DANI_LOGDUMP \
 		-DWLAN_PERF \
 		-DPTT_SOCK_SVC_ENABLE \
-		-Wall\
+		-Wno-misleading-indentation\
 		-Werror\
 		-D__linux__ \
 		-DHAL_SELF_STA_PER_BSS=1 \
